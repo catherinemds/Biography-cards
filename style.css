@@ -143,310 +143,6 @@ background-position: center;
 background-size: cover;  
 }
 
-/*#titulo-1-bio,
-#parrafo-1-present,
-#parrafo-2-present,
-#parrafo-3-present,
-#btn-mas,
-#btn-volver{
-visibility: hidden;
-}
-*/
-#box-bio-fila-1,
-#box-bio-fila-2{
-  margin-top: 2.5%;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 300px;
-}
-
-#box-transparencia{
-  margin-right: 1%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(infancia.png);
-  background-repeat: no-repeat;
-  background-position: inherit;
-  background-size: cover;
-}
-
-#box-transparencia-2{
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-2.png);
-  background-repeat: no-repeat;
-  background-position: inherit;
-  background-size: cover;
-}
-
-#box-transparencia-3{
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-3.png);
-  background-repeat: no-repeat;
-  background-position: inherit;
-  background-size: cover;
-}
-
-#box-transparencia-4{
-  margin-right: 1.5%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-4.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-transparencia-5{
-  margin-left: 1%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-5.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-transparencia-6{
-  margin-right: 1%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-6.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-transparencia-7{
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-7.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-transparencia-8{
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-8.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-transparencia-9{
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-9.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-transparencia-10{
-  margin-left: 1%;
-  width: 14%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../img/biografia/sec-10.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#box-sec-1,
-#box-sec-2,
-#box-sec-3,
-#box-sec-4,
-#box-sec-5,
-#box-sec-6,
-#box-sec-7,
-#box-sec-8,
-#box-sec-9,
-#box-sec-10{
-  visibility: hidden;
-  width: 95%;
-  height: 99%;
-  background: #d85525a8;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-#title-bio-1,
-#title-bio-2,
-#title-bio-3,
-#title-bio-4,
-#title-bio-5,
-#title-bio-6,
-#title-bio-7,
-#title-bio-8,
-#title-bio-9,
-#title-bio-10{
-  visibility: hidden;
-}
-
-#btn-saber-mas,
-#btn-saber-mas-2,
-#btn-saber-mas-3,
-#btn-saber-mas-4,
-#btn-saber-mas-5,
-#btn-saber-mas-6,
-#btn-saber-mas-7,
-#btn-saber-mas-8,
-#btn-saber-mas-9,
-#btn-saber-mas-10{
-  visibility: hidden;
-  width: 50%;
-  height: 10%;
-  background-color: #991f0a;
-  border-color: #991f0a;
-  color: white;
-  outline: none;
-  font-size: 80%;
-}
-
-#cerrar,
-#cerrar-2,
-#cerrar-3,
-#cerrar-4,
-#cerrar-5,
-#cerrar-6,
-#cerrar-7,
-#cerrar-8,
-#cerrar-9,
-#cerrar-10{
-  width: 100%;
-  height: 5%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-#box-parrafo,
-#box-parrafo-2,
-#box-parrafo-3,
-#box-parrafo-4,
-#box-parrafo-5,
-#box-parrafo-6,
-#box-parrafo-7,
-#box-parrafo-8,
-#box-parrafo-9,
-#box-parrafo-10{
-  width: 58%;
-  height: 100%;
-  margin-left: 2%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 10px;
-  border-color: white;
-}
-
-#btn-siguiente-1,
-#btn-siguiente-2,
-#btn-siguiente-3,
-#btn-siguiente-4,
-#btn-siguiente-5,
-#btn-siguiente-6,
-#btn-siguiente-7,
-#btn-siguiente-8,
-#btn-siguiente-9{
-  visibility: hidden;
-  width: 10%;
-  height: 50%;
-  margin-left: 2.5%;
-  border: 4px;
-  color: white;
-  outline: none;
-  background-color: #991f0a;
-  border-color: #991f0a;
-}
-
-#btn-volver-1-fila,
-#btn-volver-2-fila,
-#btn-volver-3-fila,
-#btn-volver-4-fila,
-#btn-volver-5-fila,
-#btn-volver-6-fila,
-#btn-volver-7-fila,
-#btn-volver-8-fila,
-#btn-volver-9-fila{
-  visibility: hidden;
-  width: 10%;
-  height: 50%;
-  margin-left: 2.5%;
-  border: 4px;
-  color: white;
-  outline: none;
-  background-color: #991f0a;
-  border-color: #991f0a;
-}
-
-#btn-atras-1,
-#btn-atras-2,
-#btn-atras-3,
-#btn-atras-4,
-#btn-atras-5,
-#btn-atras-6,
-#btn-atras-7,
-#btn-atras-8,
-#btn-atras-9,
-#btn-atras-10{
-  visibility: hidden;
-  width: 4%;
-  height: 4%;
-  margin-top: 1%;
-  margin-left: 1%;
-  border: 4px;
-  color: rgb(252, 238, 200);
-  background: #d85525a8;
-  outline: none;
-}
-
-
-
 /*/*/*-----------------
 Cards
 ------------------*/
@@ -465,6 +161,7 @@ Cards
     max-height: 300px;
     border: 20px solid transparent !important;
     background: none;
+    cursor: pointer;
 }
 
 .card-img-top{
@@ -476,14 +173,15 @@ Cards
   z-index: 10;
   cursor: pointer;
   visibility: hidden;
-  width: 4%;
-  height: 4%;
-  margin-top: 1%;
+  width: 10%;
+  height: 10%;
+  margin-bottom: 66%;
   margin-left: 1%;
   border: 4px;
   color: rgb(252, 238, 200);
-  background: #d85525a8;
+  background: none;
   outline: none;
+  font-size: 1.5rem;
 }
 
 .box-modal {
@@ -498,15 +196,31 @@ Cards
   border: 10px;
   border-color: white;
   background: orange;
+  z-index:3 ;
 }
 
-.parrafo{
+.parrafo, .parrafo-2{
+  position:  absolute;
+  top: 10%;
   width: 58%;
   height: 100%;
   margin-left: 2%;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   border: 10px;
   border-color: white;
+  z-index: 10;
+}
+
+#btn-atras, #btn-sig {
+  display: none;
+  width: 15%;
+/*  height: 50%;*/
+  margin-left: 2.5%;
+  border: 4px;
+  color: white;
+  outline: none;
+  background-color: #991f0a;
+  border-color: #991f0a;
 }
