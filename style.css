@@ -1,10 +1,11 @@
+html, body{
+  height: 100%;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #faf5e7;
-}
-
-.ocultar {
-  display: none;
+  color: #FFFFFF;
 }
 
 .titulos1 , .titulos10 , .parrafos1 , .parrafos10 {
@@ -143,23 +144,18 @@ background-position: center;
 background-size: cover;  
 }
 
-/*/*/*-----------------
-Cards
-------------------*/
-
-.underlay{
-  margin: 0;
+.underlay {
+  margin: 0 1.2%;
   padding: 0;
   max-height: 300px;
-  width: 100%;
-
+  width: 15%;
 }
 
 .card{
     margin: 0;
     width:177px;
     max-height: 300px;
-    border: 20px solid transparent !important;
+    border: solid transparent;
     background: none;
     cursor: pointer;
 }
@@ -170,47 +166,49 @@ Cards
 }
 
 #atras{
-  z-index: 10;
+  z-index: 11;
   cursor: pointer;
   visibility: hidden;
   width: 10%;
   height: 10%;
-  margin-bottom: 66%;
+  margin-bottom: 55%;
   margin-left: 1%;
   border: 4px;
   color: rgb(252, 238, 200);
   background: none;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .box-modal {
-  position: absolute;
-  top: 10%;
+  position: relative;
+  top: 50%;
   width: 58%;
-  height: 100%;
-  margin-left: 2%;
+  height: 50%;
   display: none;
   flex-direction: column;
   justify-content: space-around;
   border: 10px;
   border-color: white;
-  background: orange;
+  background: #707070;
   z-index:3 ;
 }
 
-.parrafo, .parrafo-2{
-  position:  absolute;
-  top: 10%;
-  width: 58%;
-  height: 100%;
-  margin-left: 2%;
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 10px;
-  border-color: white;
-  z-index: 10;
+.parrafo, .parrafo-2, .parrafo-3{
+    position: absolute;
+    bottom: 22%;
+    left: 15%;
+    width: 45%;
+    height: 50%;
+    margin-left: 2%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: white;
+    z-index: 10;
+    font-size: 0.9rem;
 }
 
 #btn-atras, #btn-sig {
