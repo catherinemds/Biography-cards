@@ -72,6 +72,7 @@
     flipper.animate({right: '0%' });
     flipper.animate({bottom: '0%' });
     $('#presentacion-biografia').show();
+    $('#banner-biografia').show()
     $('.underlay').on('click', flip);
   };
   

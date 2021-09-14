@@ -33,7 +33,7 @@ body {
 }
 
 #biografia {
-  background-image: url(fondo-testimonios.png);
+  background-image: url(Images/fondo-testimonios.png);
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
@@ -138,7 +138,7 @@ color: rgb(255, 255, 255);
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-background: url(present-bio.png);
+background: url(Images/present-bio.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;  
