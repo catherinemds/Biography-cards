@@ -6,7 +6,6 @@
   var parrafo = $('.underlay').find('.parrafo');
   var parrafo2 = $('.underlay').find('.parrafo-2');
   $('.parrafo').hide()
-  $('#btn-sig').hide();
   
   var flip = function() {
     var thisCard = $(this);
@@ -26,28 +25,6 @@
       flipper.hide();
       $('#banner-biografia').css({display: 'none'})
     });
-
-    // thisFlipper.css({position: 'absolute'});
-    // thisFlipper.animate({bottom: "5%"},700);
-    // thisFlipper.animate({marginBottom: "5%"},700);
-    //thisFlipper.animate({left: "10%"},700);
-    // thisFlipper.animate({width: "50%"},700);
-    // thisFlipper.animate({width: "70%"},700);
-    //thisFlipper.animate({height: "850px"},700,
-    // $('.box-modal').animate({top: "80%"},700, function() {
-    //   thisFlipper.css({display: 'none'});
-    // });
-    // thisFlipper.animate({left: "10%"},700, function (){
-    //   //thisFlipper.stop().animate({height: "95%"},700);
-    //   thisFlipper.css({display: 'none'});
-    //   $('.box-modal').css({display: 'flex'});
-    //    $('.box-modal').animate({top: "80%"},700);
-    //    $('.box-modal').animate({width: "1012px"},700);
-    //    $('.box-modal').stop().animate({height: "850px"},700);
-    //   $('#atras').css({visibility: 'visible'})
-    //     thisCard.find('.parrafo').css("display", "flex");
-    //     $('#presentacion-biografia').hide();
-    // });
       $(this).off('click');
 
     if (thisCard.children('.parrafo-2').length > 0){
@@ -73,23 +50,10 @@
 
     $("#btn-atras").on("click", function(){
      // if(thisCard.children('.parrafo-3').length > 0){
-     //    $("#btn-atras").on("click", function(){
-     //    $('.parrafo-3').css({display: 'none'});
-     //    $('.parrafo-2').css({display: 'flex'});
-     //   // $('#btn-sig').show();
-     //    $('#btn-atras').show('click', function(){
-     //      $('.parrafo-2').css({display: 'none'});
-     //      texto.show();
-     //    $('#btn-atras').hide();
-     //    $('#btn-sig').show();;
-     //    });
-     //    });
-     //    }else if (thisCard.children('.parrafo-3').length > 0 === false) {
       $('.parrafo-2').css({display: 'none'});
       texto.show();
       $('#btn-atras').hide();
       $('#btn-sig').show();;
-//         } 
  }); 
     return false;
   };
