@@ -22,7 +22,7 @@
       $('#atras').css({visibility: 'visible'})
       thisCard.find('.parrafo').css("display", "flex");
       $('#presentacion-biografia').hide();
-      flipper.hide();
+      flipper.css({display: 'none'});
       $('#banner-biografia').css({display: 'none'})
     });
       $(this).off('click');

@@ -151,6 +151,10 @@ background-size: cover;
   width: 15%;
 }
 
+.card:hover {
+  background: #d85525a8;
+}
+
 .card{
     margin: 0;
     width:177px;
@@ -159,6 +163,7 @@ background-size: cover;
     background: none;
     cursor: pointer;
 }
+
 
 .card-img-top{
 
