@@ -8,29 +8,15 @@ body {
   color: #FFFFFF;
 }
 
-.titulos1 , .titulos10 , .parrafos1 , .parrafos10 {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-}
-
 .titulos1 { 
-  font-size: 2vw !important;
-  margin: 7% 0 5% 30%;
+  margin: 3% 0 3% 0%;
+  text-align: center;
 }
 
 .parrafos1 {
-  font-size: 1vw !important;
-  padding: 3% 3% 0% 25%;
+  font-size: 1.1vw;
+  padding: 0% 3% 0% 3%;
  }
-
-.paddingY-6 {
-  padding-top: 6vw;
-}
 
 #biografia {
   background-image: url(Images/fondo-testimonios.png);
@@ -70,7 +56,7 @@ body {
 }
 
 #contenido-biografia .cuadro-ver-biografia button:focus {
-  outline: none !important;
+  outline: none;
   background-color: #3f4044;
 }
 
@@ -126,26 +112,30 @@ body {
 display: flex;
 justify-content: center;
 width: 100%;
-height: 400px;
+height: 640px;
 }
 
 #box-bio-present{ 
-margin-top: 5%;
+margin-top: 3%;
 padding: 20px;  
-width: 80%;
-height: 300px;
+width: 83%;
+height: 547px;
 color: rgb(255, 255, 255);
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-evenly;
 background: url(Images/present-bio.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;  
 }
 
+.container {
+    max-width: 1265px;
+}
+
 .underlay {
-  margin: 0 2.2%;
+  margin: 0 1.5%;
   padding: 0;
   max-height: 300px;
   width: 15%;
